@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <main className="w-screen h-screen bg-[#F2EAE2] flex flex-col justify-start items-center px-4 py-7 sm:justify-center">
-        <div className="flex flex-col justify-start items-center max-w-[343px] bg-white sm:flex-row sm:max-w-[600px] sm:h-[450px]">
+        <div className="flex flex-col justify-start items-center max-w-[343px] bg-white sm:flex-row sm:max-w-[600px] sm:h-[450px] sm:items-stretch">
           <div className="sm:hidden">
             <Image src={imageProductMobile} alt="Product Image" />
           </div>
@@ -43,7 +43,7 @@ export default function Home() {
                 $149.99
               </span>
               <span
-                className={`${montserrat.className} line-through font-medium text-[13px] leading-[23px]`}
+                className={`${montserrat.className} line-through font-medium text-[13px] leading-[23px] text-[#6C7289]`}
               >
                 $169.99
               </span>
