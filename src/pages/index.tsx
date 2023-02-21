@@ -48,7 +48,7 @@ export default function Home() {
                 $169.99
               </span>
             </div>
-            <button className="py-4 flex flex-row justify-center items-center bg-[#3D8168] self-stretch rounded-lg">
+            <button className="py-4 flex flex-row justify-center items-center bg-[#3D8168] hover:bg-[#1A4032] self-stretch rounded-lg">
               <Image
                 src={iconCart}
                 alt="Cart Icon"
